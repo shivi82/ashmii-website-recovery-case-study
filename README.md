@@ -1,4 +1,18 @@
-# Ashmii.com Website Recovery Case Study
+# Ashmii Website Recovery Case Study
+
+> **Note:** This repository documents the engineering process followed during the recovery of a production WordPress website. No client source code, database dumps, credentials, or proprietary assets are included.
+
+## Table of Contents
+
+- [Project Type](#project-type)
+- [Background](#background)
+- [Recovery Objectives](#recovery-objectives)
+- [Key Challenges](#key-challenges)
+- [Recovery Actions](#recovery-actions)
+- [Outcome](#outcome)
+- [Project Highlights](#project-highlights)
+- [Skills Demonstrated](#skills-demonstrated)
+- [Repository Contents](#repository-contents)
 
 ## Project Type
 
@@ -8,8 +22,7 @@ WordPress disaster recovery, website reconstruction, infrastructure recovery, se
 
 ## Background
 
-Ashmii.com had been dormant for nearly a year after the original hosting environment and recent backups became unavailable. The recovery effort required rebuilding the website using fragmented assets, including an older database backup, archived theme files, public web archives, and recovered infrastructure access.
-
+Ashmii.com had been dormant for nearly a year after the original hosting environment and recent backups became unavailable. The recovery effort required reconstructing the website from fragmented assets, recovered infrastructure access, archived web content, and legacy backups while preserving the original design, functionality, and site structure.
 ---
 
 ## Recovery Objectives
@@ -52,7 +65,7 @@ Ashmii.com had been dormant for nearly a year after the original hosting environ
 * Reinstalled and reconfigured WPBakery Page Builder
 * Resolved plugin compatibility issues
 * Fixed broken links and broken image references
-* Recovered missing assets from available sources where possible
+* Recovered media assets using archived web snapshots, legacy resources, and manual reconstruction techniques.
 
 ### Security
 
@@ -72,9 +85,19 @@ Ashmii.com had been dormant for nearly a year after the original hosting environ
 
 ## Outcome
 
-The website was successfully reconstructed from partial assets and returned to production. The recovery restored the site's content, functionality, navigation, and media while addressing compatibility and security issues encountered during the reconstruction process.
+The website was successfully reconstructed from fragmented assets and returned to production. The recovery restored the site's navigation, functionality, media, and overall user experience while resolving infrastructure, compatibility, and security issues identified during the reconstruction process.
 
 ---
+
+## Project Highlights
+
+- Successfully recovered a dormant production WordPress website.
+- Restored infrastructure access, including Cloudflare and ThemeForest.
+- Reconstructed the website using legacy backups and archived content.
+- Recovered approximately 95% of website media assets.
+- Removed malicious JavaScript injected into the WordPress installation.
+- Validated the recovered website in a staging environment before production deployment.
+
 
 ## Skills Demonstrated
 
@@ -91,3 +114,15 @@ The website was successfully reconstructed from partial assets and returned to p
 * DNS Management
 * Staging-to-Production Deployment
 * Technical Documentation
+
+## Repository Contents
+
+- `docs/01-project-overview.md` – Project background, objectives, and recovery strategy
+- `docs/02-recovery-log.md` – Chronological log of the recovery process
+- `screenshots/` – Before, recovery, and after screenshots
+- `assets/` – Diagrams and supporting material
+- `references/` – Useful references used during the recovery
+
+## Disclaimer
+
+This repository documents the technical recovery process for educational and portfolio purposes. It intentionally excludes client source code, proprietary assets, database backups, credentials, and any confidential information. The focus is on the engineering methodology, troubleshooting process, and lessons learned during the recovery.
