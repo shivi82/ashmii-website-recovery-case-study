@@ -1,6 +1,40 @@
 # Ashmii Website Recovery Case Study
 
+> Engineering case study documenting the recovery of a production WordPress website from fragmented assets, infrastructure reconstruction, media recovery, security remediation, and production deployment.
+
+---
+
+═══════════════════════════════════════
+        ASHMII RECOVERY WORKFLOW
+═══════════════════════════════════════                
+
+			 Lost Hosting
+				  │
+				  ▼
+			 Infrastructure Recovery
+				  │
+				  ▼
+			 Database Reconstruction
+				  │
+				  ▼
+			 Theme & Plugin Recovery
+				  │
+				  ▼
+			 Media Recovery
+				  │
+				  ▼
+			 Security Investigation
+				  │
+				  ▼
+			 Testing & Validation
+				  │
+				  ▼
+			 Production Deployment
+		
+
 > **Note:** This repository documents the engineering process followed during the recovery of a production WordPress website. No client source code, database dumps, credentials, or proprietary assets are included.
+
+---
 
 ## Table of Contents
 
@@ -14,6 +48,8 @@
 - [Skills Demonstrated](#skills-demonstrated)
 - [Repository Contents](#repository-contents)
 
+---
+
 ## Project Type
 
 WordPress disaster recovery, website reconstruction, infrastructure recovery, security cleanup, and production relaunch.
@@ -23,6 +59,7 @@ WordPress disaster recovery, website reconstruction, infrastructure recovery, se
 ## Background
 
 Ashmii.com had been dormant for nearly a year after the original hosting environment and recent backups became unavailable. The recovery effort required reconstructing the website from fragmented assets, recovered infrastructure access, archived web content, and legacy backups while preserving the original design, functionality, and site structure.
+
 ---
 
 ## Recovery Objectives
